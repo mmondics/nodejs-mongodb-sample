@@ -15,7 +15,7 @@ components:
   - type: dockerimage
     alias: nodejs
     image: >-
-      registry.redhat.io/codeready-workspaces/plugin-java8-rhel8@sha256:663781fb227e06ec8f75ab7e26fcd80141ffcd093c56a35ed6c393845b36701a
+      registry.redhat.io/codeready-workspaces/plugin-java8-openj9-rhel8
     env:
       - name: SECRET
         value: 220fd770-c028-480d-8f95-f84353c7d55a
